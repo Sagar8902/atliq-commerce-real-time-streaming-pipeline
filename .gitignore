@@ -1,0 +1,17 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Producer generated files
+.last_order_id
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Airflow
+airflow.cfg
+logs/
